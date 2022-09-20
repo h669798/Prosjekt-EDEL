@@ -1,0 +1,103 @@
+.kjøretøyLink {
+  padding-right: 1px;
+}
+
+p {
+  font-family: Tahoma;
+}
+
+a {
+  padding-right: 35px;
+  color: rgb(32, 178, 170);
+  text-decoration: none;
+}
+
+button {
+  font-family: Tahoma;
+}
+
+pre {
+  font-family: Tahoma;
+}
+
+.forsideTittel {
+  border: none;
+  background: none;
+  font-weight: bold;
+  font-size: 45px;
+  color: rgb(32, 178, 170);
+  margin-top: 70px;
+  margin-left: 150px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.greenCircle {
+  margin-top: 3px;
+  position: absolute;
+  margin-left: 5px;
+}
+
+.allLinks {
+  font-family: Tahoma;
+  font-size: 20px;
+  color: rgb(32, 178, 170);
+  float: right;
+  padding-top: 88px;
+  padding-right: 120px;
+}
+
+.avsnittMedlemskap {
+  font-family: Tahoma;
+  font-size: 20px;
+  color: rgb(32, 178, 170);
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 120px;
+}
+
+.avsnittUtlån {
+  font-family: Tahoma;
+  font-size: 25px;
+  color: rgb(32, 178, 170);
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 120px;
+}
+
+.avsnittEDEL {
+  font-family: Tahoma;
+  font-size: 25px;
+  color: rgb(32, 178, 170);
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 120px;
+}
+
+.avsnittKjøretøy {
+  font-family: Tahoma;
+  font-size: 25px;
+  color: rgb(32, 178, 170);
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 120px;
+}
+
+.bilBilder {
+  
+  font-family: Tahoma;
+  font-size: 20px;
+  color: rgb(32, 178, 170);
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 120px;
+}
+
+.avsnittKontaktinfo {
+  font-family: Tahoma;
+  font-size: 30px;
+  color: rgb(32, 178, 170);
+  position: absolute;
+  margin-top: 175px;
+  margin-left: 125px;
+}
