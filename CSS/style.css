@@ -53,8 +53,9 @@ pre {
   font-size: 20px;
   color: rgb(32, 178, 170);
   position: absolute;
-  margin-top: 180px;
+  margin-top: 200px;
   margin-left: 120px;
+  position: absolute;
 }
 
 .avsnittUtlån {
@@ -109,9 +110,9 @@ pre {
   font-weight: bold;
   color: white;
   margin-left: 170px;
-  margin-top: 200px;
+  margin-top: 210px;
   width: 500px;
-  line-height: 100px;
+  line-height: 90px;
   position: absolute;
 }
 
@@ -142,6 +143,21 @@ pre {
   padding-left: 50px;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-left: 150px;
-  margin-top: 350px;
+  margin-left: 160px;
+  margin-top: 340px;
+}
+
+.medlemskapInfo {
+  font-size: 25px;
+  width: 600px;
+  line-height: 50px;
+  margin-top: -10px;
+  position: absolute;
+}
+
+.dameMedHund {
+  width: 500px;
+  margin-left: 700px;
+  margin-top: -50px;
+  border-radius: 5px;
 }
