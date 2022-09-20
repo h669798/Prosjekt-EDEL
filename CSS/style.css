@@ -45,6 +45,7 @@ pre {
   float: right;
   padding-top: 88px;
   padding-right: 120px;
+  position: relative;
 }
 
 .avsnittMedlemskap {
@@ -100,4 +101,47 @@ pre {
   position: absolute;
   margin-top: 175px;
   margin-left: 125px;
+}
+
+.slagOrd {
+  font-family: Tahoma;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  margin-left: 170px;
+  margin-top: 200px;
+  width: 500px;
+  line-height: 100px;
+  position: absolute;
+}
+
+.elektriskLadeBilde {
+  border-width: 20px;
+  border-style:double;
+  border-color: white;
+  width: 450px;
+  border-radius: 200px;
+  margin-top: 220px;
+  margin-left: 750px;
+  position: fixed;
+}
+
+.medlemsKnapp {
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 25px;
+  border-style: solid;
+  border-color: rgb(181, 230, 29);
+  border-radius: 50px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  background-color: rgb(181, 230, 29);
+  color: white;
+  float: left;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 150px;
+  margin-top: 350px;
 }
