@@ -1,15 +1,31 @@
-.kjøretøyLink {
-  padding-right: 1px;
-}
+/*
+Alle sider:
+*/
 
 p {
   font-family: Tahoma;
+  font-size: 25px;
+  color: rgb(32, 178, 170);
+  line-height: 50px;
 }
 
 a {
+  font-family: Tahoma;
   padding-right: 35px;
   color: rgb(32, 178, 170);
   text-decoration: none;
+}
+
+li {
+  font-family: Tahoma;
+  font-size: 25px;
+  color: rgb(32, 178, 170);
+}
+
+h3 {
+  font-family: Tahoma;
+  font-size: 25px;
+  color: rgb(32, 178, 170);
 }
 
 button {
@@ -20,7 +36,7 @@ pre {
   font-family: Tahoma;
 }
 
-.forsideTittel {
+.tittel {
   border: none;
   background: none;
   font-weight: bold;
@@ -48,61 +64,9 @@ pre {
   position: relative;
 }
 
-.avsnittMedlemskap {
-  font-family: Tahoma;
-  font-size: 20px;
-  color: rgb(32, 178, 170);
-  position: absolute;
-  margin-top: 200px;
-  margin-left: 120px;
-  position: absolute;
-}
-
-.avsnittUtlån {
-  font-family: Tahoma;
-  font-size: 25px;
-  color: rgb(32, 178, 170);
-  position: absolute;
-  margin-top: 180px;
-  margin-left: 120px;
-}
-
-.avsnittEDEL {
-  font-family: Tahoma;
-  font-size: 25px;
-  color: rgb(32, 178, 170);
-  position: absolute;
-  margin-top: 180px;
-  margin-left: 120px;
-}
-
-.avsnittKjøretøy {
-  font-family: Tahoma;
-  font-size: 25px;
-  color: rgb(32, 178, 170);
-  position: absolute;
-  margin-top: 180px;
-  margin-left: 120px;
-}
-
-.bilBilder {
-  
-  font-family: Tahoma;
-  font-size: 20px;
-  color: rgb(32, 178, 170);
-  position: absolute;
-  margin-top: 350px;
-  margin-left: 120px;
-}
-
-.avsnittKontaktinfo {
-  font-family: Tahoma;
-  font-size: 30px;
-  color: rgb(32, 178, 170);
-  position: absolute;
-  margin-top: 175px;
-  margin-left: 125px;
-}
+/*
+Forsiden:
+*/
 
 .slagOrd {
   font-family: Tahoma;
@@ -147,17 +111,190 @@ pre {
   margin-top: 340px;
 }
 
+/*
+"Medlemskap"-siden:
+*/
+
+.medlemskapOverskrift {
+  font-weight: bold;
+  font-size: 45px;
+  position: absolute;
+  
+  margin-top: 230px;
+  margin-left: 150px;
+}
+
 .medlemskapInfo {
-  font-size: 25px;
   width: 600px;
   line-height: 50px;
-  margin-top: -10px;
   position: absolute;
+  margin-top: 300px;
+  margin-left: 150px;
 }
 
 .dameMedHund {
   width: 500px;
-  margin-left: 700px;
-  margin-top: -50px;
+  margin-left: 850px;
+  margin-top: 250px;
   border-radius: 5px;
+  position: absolute;
+}
+
+.medlemskapOverskrift2 {
+  font-size: 37px;
+  font-weight: bold;
+  line-height: 50px;
+  margin-top: 830px;
+  margin-left: 150px;
+  position: absolute;
+}
+
+.medlemskapInfo2 {
+  margin-top: 900px;
+  margin-left: 150px;
+}
+
+
+.medlemskapInfo3 {
+  margin-left: 150px;
+  line-height: 35px;
+}
+
+.kjoretoyLink {
+  padding-right: 1px;
+}
+
+/*
+"Utlånssteder"-siden:
+*/
+
+.utlånOverskrift {
+  font-size: 45px;
+  font-weight: bold;
+  position: absolute;
+  margin-top: 230px;
+  margin-left: 150px;
+}
+
+.listeUtlån {
+  line-height: 80px;
+  position: absolute;
+  margin-top: 310px;
+  margin-left: 150px;
+}
+
+.infoUtlån {
+  position: absolute;
+  margin-top:750px;
+  margin-left: 180px;
+  padding-bottom: 150px;
+}
+
+/*
+"Om EDEL"-siden:
+*/
+.omOssOverskrift {
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 230px;
+  margin-left: 150px;
+  position: absolute;
+}
+
+.omOssInfo {
+  margin-top: 320px;
+  margin-left: 150px;
+  width: 600px;
+  line-height: 50px;
+  position: absolute;
+}
+
+/*
+"Våre kjøretøy"-siden:
+*/
+
+.kjoretoyOverskrift {
+  font-size: 45px;
+  font-weight: bold;
+  color: rgb(32, 178, 170);
+  position: absolute;
+  margin-top: 230px;
+  margin-left: 150px;
+}
+
+.kjoretoyInfo {
+  line-height: 50px;
+  width: 600px;
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 150px;
+}
+
+.bilOverskrift {
+  margin-top: 250px;
+  margin-left: 900px;
+  position: absolute;
+  float: right;
+}
+
+.bilBilde {
+  margin-top: 300px;
+  position: absolute;
+  margin-left: 900px;
+  border-radius: 10px;
+}
+
+.bilInfo {
+  margin-top: 600px;
+  position: absolute;
+  margin-left: 1000px;
+}
+
+.båtOverskrift {
+  margin-top: 650px;
+  position: absolute;
+  margin-left: 1000px;
+}
+
+.båtBilde {
+  margin-top: 700px;
+  position: absolute;
+  margin-left: 900px;
+  border-radius: 10px;
+}
+
+.båtInfo {
+  margin-top: 1100px;
+  position: absolute;
+  margin-left: 900px;
+}
+
+.sykkelOverskrift {
+  margin-top: 1100px;
+  position: absolute;
+  margin-left: 900px;
+}
+
+.sykkelBilde {
+  margin-top: 1100px;
+  position: absolute;
+  margin-left: 900px;
+}
+
+.sykkelInfo {
+  margin-top: 1100px;
+  position: absolute;
+  margin-left: 900px;
+}
+/*
+"Kontaktinfo"-siden:
+*/
+
+.avsnittKontaktinfo {
+  font-family: Tahoma;
+  font-size: 30px;
+  color: rgb(32, 178, 170);
+  position: absolute;
+  margin-top: 175px;
+  margin-left: 125px;
 }
