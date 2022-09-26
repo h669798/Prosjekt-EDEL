@@ -242,6 +242,7 @@ Forsiden:
   position: absolute;
   margin-left: 900px;
   border-radius: 10px;
+  border-width: 2px;
 }
 
 .bilInfo {
@@ -261,6 +262,7 @@ Forsiden:
   position: absolute;
   margin-left: 900px;
   border-radius: 10px;
+  border-width: 2px;
 }
 
 .båtInfo {
@@ -279,6 +281,7 @@ Forsiden:
   margin-top: 1100px;
   position: absolute;
   margin-left: 900px;
+  border-width: 2px;
 }
 
 .sykkelInfo {
@@ -290,11 +293,13 @@ Forsiden:
 "Kontaktinfo"-siden:
 */
 
-.avsnittKontaktinfo {
-  font-family: Tahoma;
-  font-size: 30px;
+.kontaktOverskrift {
+  font-size: 40px;
+}
+
+.tabellKontakt {
   color: rgb(32, 178, 170);
   position: absolute;
   margin-top: 175px;
-  margin-left: 125px;
+  margin-left: 150px;
 }
