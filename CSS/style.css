@@ -37,6 +37,56 @@ pre {
   font-family: Tahoma;
 }
 
+input[type=text] {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: Tahoma;
+}
+
+input[type=submit] {
+  background-color: rgb(181, 230, 29);
+  border-color: rgb(181, 230, 29);
+  color: white;
+  padding: 14px 30px;
+  font-size: 20px;
+  font-family: Tahoma;
+}
+
+label{
+  font-size: 20px;
+  font-family: Tahoma;
+}
+
+textarea {
+  height: 200px;
+  width: 100%;
+  font-family: Tahoma;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 15px 15px;
+  border-color: rgb(32, 178, 170);
+  padding-right: 60px;
+}
+
+th {
+  text-align: left;
+  font-size: 25px;
+  color: rgb(32, 178, 170)
+}
+
+td {
+  font-size: 20px;
+  text-align: left;
+}
+
 .tittel {
   border: none;
   background: none;
@@ -188,9 +238,18 @@ Forsiden:
 
 .infoUtlån {
   position: absolute;
-  margin-top:750px;
-  margin-left: 180px;
+  margin-top:280px;
+  margin-left: 150px;
   padding-bottom: 150px;
+  margin-right: 800px;
+}
+
+.tabellSteder {
+  font-size: 20px;
+  position: absolute;
+  margin-top: 390px;
+  margin-left: 150px;
+  font-family: Tahoma;
 }
 
 /*

@@ -90,30 +90,15 @@
       Send oss en melding!
     </h3>
 
-    <table>
-
-      <tr>
-        <td>Navnet ditt:</td>
-        <td>Din e-post:</td>
-      </tr>
-
-      <tr>
-        <td></td>
-        <td></td>
-      </tr>
-
-      <tr>
-        <td>
-          Skriv en melding:
-          width: 100%; 
-        </td>
-      </tr>
-
-      <tr>
-        <td></td>
-      </tr>
-
-    </table>
+    <form>
+      <label for="navn">Ditt navn:</label><br>
+      <input type="text" name="navn"><br>
+      <label for="epost">Din e-post:</label><br>
+      <input type="text" name="epost"><br>
+      <label for="melding">Din melding:</label><br>
+      <textarea name="melding" placeholder="Din melding ..." ></textarea><br><br>
+      <input type="submit" value="Send inn">
+    </form>
 
   </div>
 
