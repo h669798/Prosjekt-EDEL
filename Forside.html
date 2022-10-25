@@ -40,13 +40,43 @@
     
   </a>
 
-  <span class = "allLinks"> 
+  <div class = "allLinks"> 
     <a href = "AndreSider/BliMedlem.html" style = "color: white"><strong>Medlemskap</strong></a>
     <a href = "AndreSider/Utleiesteder.html"  style = "color: white"><strong>Utlånssteder</strong></a>
     <a href = "AndreSider/OmOss.html"  style = "color: white"><strong>Om EDEL</strong></a>
-    <a href = "AndreSider/Oversiktoverkjoretoy.html"  style = "color: white"><strong>Våre kjøretøy</strong></a>
+
+    <div class = "dropDown">
+    <button style =  "background-color: rgb(32, 178, 170)" onclick = "myFunction()" class = "dropDownButton">
+      <strong style = "color: white" >Våre kjøretøy</strong>
+    </button>
+    <div id = "dropDownContent" class = "dropDownLinks">
+    <a href = "AndreSider/El-bil.html">Bil</a>
+    <a href = "AndreSider/El-båt.html">Båt</a>
+    <a href = "AndreSider/El-sykkel.html">Sykkel</a>
+    </div>
+    </div>
+    
+    <script>
+      function myFunction() {
+        document.getElementById("dropDownContent").classList.toggle("show");
+      }
+      
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropDownButton')) {
+          var dropdowns = document.getElementsByClassName("dropDownLinks");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      </script>
+
     <a href = "AndreSider/Kontaktinformasjon.html"  style = "color: white"><strong>Kontaktinfo</strong></a>
-  </span>
+  </div>
 
  <p class = "slagOrd">
     Enkel deling, elektrisk leie!
