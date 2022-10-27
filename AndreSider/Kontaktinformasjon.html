@@ -54,9 +54,9 @@
       <strong>Våre kjøretøy</strong>
     </button>
     <div id = "dropDownContent" class = "dropDownLinks">
-    <a href = "AndreSider/El-bil.html">Bil</a>
-    <a href = "AndreSider/El-båt.html">Båt</a>
-    <a href = "AndreSider/El-sykkel.html">Sykkel</a>
+    <a href = "El-bil.html">Bil</a>
+    <a href = "El-båt.html">Båt</a>
+    <a href = "El-sykkel.html">Sykkel</a>
     </div>
     </div>
     
@@ -64,20 +64,7 @@
       function myFunction() {
         document.getElementById("dropDownContent").classList.toggle("show");
       }
-      
-      window.onclick = function(event) {
-        if (!event.target.matches('.dropDownButton')) {
-          var dropdowns = document.getElementsByClassName("dropDownLinks");
-          var i;
-          for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-              openDropdown.classList.remove('show');
-            }
-          }
-        }
-      }
-      </script>
+   </script>
 
   <a href = "Kontaktinformasjon.html"><strong>Kontaktinfo</strong></a>
   </span>
